@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomCircleProgressBar">
+        <attr name="max" format="integer" />
+        <attr name="paint_width" format="integer" />
+        <attr name="paint_color" format="integer" />
+        <attr name="inside_indent" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="CustomDynamicTextView">
+        <attr name="static_text" format="string" />
+        <attr name="dynamic_text_unit" format="string" />
+        <attr name="dynamic_max_number" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="CustomPullDownRefreshLinearLayout">
+        <attr name="scroll_bar_id" format="reference" />
+    </declare-styleable>
+
+    <attr name="numberPickerStyle" format="reference" />
+
+    <declare-styleable name="GridTableLayout">
+        <attr name="numColumns" format="integer"></attr>
+        <attr name="horizontalSpacing" format="dimension"></attr>
+        <attr name="verticalSpacing" format="dimension"></attr>
+        <attr name="widthOrientation" format="boolean"></attr>
+    </declare-styleable>
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="panelHeight" format="dimension" />
+        <attr name="shadowHeight" format="dimension" />
+        <attr name="paralaxOffset" format="dimension" />
+        <attr name="fadeColor" format="color" />
+        <attr name="flingVelocity" format="integer" />
+        <attr name="dragView" format="reference" />
+        <attr name="overlay" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ViewPagerIndicator">
+
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference"/>
+        <!-- Style of the icon indicator's views. -->
+        <attr name="vpiIconPageIndicatorStyle" format="reference"/>
+        <!-- Style of the line indicator. -->
+        <attr name="vpiLinePageIndicatorStyle" format="reference"/>
+        <!-- Style of the title indicator. -->
+        <attr name="vpiTitlePageIndicatorStyle" format="reference"/>
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference"/>
+        <!-- Style of the underline indicator. -->
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference"/>
+    </declare-styleable>
+
+</resources>
